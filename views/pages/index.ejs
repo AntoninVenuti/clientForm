@@ -1,0 +1,70 @@
+<% include header %>
+
+<form action="/" method="post" class="ui form">
+
+    <div class="field">
+
+        <label for="lastName">Nom</label>
+        
+        <textarea name="lastName" id="lastName" rows=1 column=2></textarea>
+    
+    </div>
+
+    <div class="field">
+
+        <label for="firstName">Prenom</label>
+        
+        <textarea name="firstName" id="firstName" rows=1></textarea>
+    
+    </div>
+
+    <div class="field">
+
+        <label for="adress">Adresse</label>
+        
+        <textarea name="adress" id="adress" rows=1></textarea>
+    
+    </div>
+
+    <div class="field">
+
+        <label for="postalCode">Code postal</label>
+        
+        <textarea name="postalCode" id="postalCode" rows=1></textarea>
+    
+    </div>
+
+    <div class="field">
+
+        <label for="city">Ville</label>
+        
+        <textarea name="city" id="city" rows=1></textarea>
+    
+    </div>
+
+    <div class="field">
+
+        <label for="birthName">Date de naissance</label>
+        
+        <input type="date" name="birthName" id="birthName" rows=1>
+    
+    </div>
+
+    <div>
+
+        <label for="availability">Disponibilite</label>
+        
+        <select name="availability" id="availability">
+            <option>oui</option>
+            <option>non</option>
+        </select>
+    
+    </div>
+
+    <button type="submit" class="ui blue labeled submit icon button">
+        
+        <i class="icon edit"></i>Envoyer
+    
+    </button>
+
+</form>
